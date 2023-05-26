@@ -1,0 +1,91 @@
+.ProfilScreen {
+  height: 100vh;
+  color: white;
+}
+
+.profileScreen__body {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  padding-top: 8%;
+  max-width: 800px;
+}
+
+.profileScreen__body > h1 {
+  border-bottom: 2px solid white;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.profilScreen__info {
+  display: flex;
+}
+
+.profilScreen__info > img {
+  height: 100px;
+}
+
+.profilScreen__detail {
+  margin-left: 20px;
+  flex: 1;
+}
+
+.profilScreen__detail > h2 {
+  background-color: darkcyan;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.profileScreem__signOut {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+.profileScreen__plans > h3 {
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+}
+
+.profileScreen__plans {
+  padding-top: 10px;
+}
+
+.instagram:hover {
+  opacity: 0.8;
+  transform: scale(0.9);
+  transition: 0.2s;
+}
+
+.whatsapp:hover {
+  opacity: 0.8;
+  transform: scale(0.9);
+  transition: 0.2s;
+}
+
+.github:hover {
+  opacity: 0.8;
+  transform: scale(0.9);
+  transition: 0.2s;
+}
+
+@media only screen and (min-width: 200px) {
+  .ProfilScreen {
+    margin-right: 200px;
+    padding-top: 100px;
+  }
+
+  .profileScreen__body {
+    font-size: 10px;
+  }
+  .profileScreen__body > h1 {
+    font-size: 15px;
+    display: inline;
+  }
+}

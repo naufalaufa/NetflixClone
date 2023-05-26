@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.loginScreen {
+  position: relative;
+  height: 100%;
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/70805ddd-f38c-4e25-94cd-b5015e444ee0/0f0dfaa8-8948-4126-9291-4de049ce7d2c/ID-id-20230508-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-size: cover;
+  /* background-position: center; */
+
+  /* height: 50px; */
+}
+
+.logo {
+  height: 50px;
+  object-fit: contain;
+  position: fixed;
+  left: 0;
+  top: 20px;
+  padding-left: 20px;
+}
+
+.btn-logo {
+  position: fixed;
+  right: 0;
+  top: 20px;
+  margin-right: 40px;
+  padding: 10px 20px;
+  font-family: "Bebas Neue", sans-serif;
+  background-color: red;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  box-shadow: none;
+  border: none;
+  cursor: pointer;
+}
+
+.loginScreen_gradient {
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.loginScreen_body {
+  color: white;
+  padding: 20px;
+  z-index: 1;
+  position: absolute;
+  top: 25%;
+  text-align: center;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.loginScreen_body > h1 {
+  font-size: 3.125rem;
+  margin-bottom: 20px;
+}
+
+.loginScreen_body > h3 {
+  font-size: 2rem;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.loginScreen_body > h4 {
+  font-size: 1rem;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.loginScreen_form {
+  padding: 10px;
+}
+
+.input-form {
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 100px;
+  background: transparent;
+  color: white;
+  max-width: 600px;
+  width: 30%;
+  height: 30px;
+}
+
+.btn-form {
+  height: 55px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: none;
+  cursor: pointer;
+}
